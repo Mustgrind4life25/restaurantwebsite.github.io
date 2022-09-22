@@ -1,0 +1,42 @@
+// Layout
+- each page should have the header in it
+- footer on each page
+- choose fonts and colors (thinking about black)
+
+HOME PAGE:
+- image of the location or a dish (done)
+- about page
+- menu page
+- contact page
+- community page
+
+
+function classToggle() {
+  const navs = document.querySelectorAll('.Navbar__Items')
+  
+  navs.forEach(nav => nav.classList.toggle('Navbar__ToggleShow'));
+}
+
+document.querySelector('.Navbar__Link-toggle')
+  .addEventListener('click', classToggle);
+
+
+<ul class="header-links-container" id="nav-list">
+  <li class="header-links"><a href="/#header">home</a></li>
+  <li class="header-links"><a href="about.html" target="_blank">about</a></li>
+  <li class="header-links"><a href="menu.html" target="_blank">menu</a></li>
+  <li class="header-links"><a href="contact.html" target="_blank">contact</a></li>
+  <li class="header-links"><a href="community.html" target="_blank">community</a></li>
+</ul>
+
+
+<div class="menu-header" id="toggle-btn">
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+      </div>
+
+
+<label id="icon">
+        <i class="fas fa-bars"></i>
+      </label>

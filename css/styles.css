@@ -1,0 +1,473 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+}
+
+img{
+	width: 100%;
+}
+
+
+/* header section */
+#header{
+	background-image: url('../img/restaurant-windows.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 100px;
+	position: relative;
+}
+
+.header-message{
+	background-color: #000;
+	color: #fff;
+	border: 1px solid;
+	position: absolute;
+	bottom: -40px;
+	right: 20px;
+	padding: 0 8px;
+}
+
+
+/* nav section */
+
+.company-logo{
+	position: absolute;
+	top: -110px;
+	left: -30px;
+	width: 360px;
+}
+
+
+#nav-list{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.home-links{
+	color: #fff;
+	margin: 0 5px;
+	text-transform: uppercase;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+}
+
+.home-links:hover{
+	background-color: #000;
+	transition: .5s;
+}
+
+
+
+/* hours and location section */
+#hours{
+	/*background: #EEE3CB;*/
+	display: flex;
+}
+
+
+.hours-container{
+	width: 50%;
+	height: auto;
+	margin: 10px 30px;
+	padding: 50px 0;
+}
+
+.dining-container{
+	width: 50%;
+	height: auto;
+	margin: 10px 30px;
+	padding: 50px 0;
+}
+
+.hours-header{
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+.hours-para-sec{
+	font-size: 1.2em;
+	line-height: 2;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+/* dish image section */
+#dish{
+
+}
+
+.dish-container{
+	display: flex;
+	background-color: #000;
+	justify-content: space-between;
+	align-items: center;
+	column-gap: 15px;
+}
+
+.local-dish{
+	margin-left: 40px;
+	color: #fff;
+}
+
+.local-dish-header{
+	font-weight: 900;
+	font-size: 1.5em;
+	line-height: 1.5;
+}
+
+.local-dish h3, p{
+	text-transform: capitalize;
+}
+
+.salmon-dish{
+	width: 450px;
+	height: 595px;
+}
+
+/* footer section */
+#footer{
+	/*background-color: #D7C0AE;*/
+	font-family: 'Noto Sans', sans-serif;
+	padding: 10px;
+	margin-top: 30px;
+}
+
+.footer-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 10px;
+}
+
+
+.footer-img{
+	background-color: #000;
+	border-radius: 50%;
+	width: 60px;
+}
+
+.footer-header{
+	text-transform: capitalize;
+	font-size: 14px;
+}
+
+.footer-para-sec{
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+.footer-social-icon{
+	width: 30px;
+	border-radius: 50%;
+}
+
+.footer-social-icon:hover{
+	cursor: pointer;
+}
+
+.footer-copy-right{
+	padding: 15px 0;
+}
+
+.footer-copy-para{
+	font-size: 12px;
+	margin-left: auto;
+}
+
+
+
+
+
+/* about html section */
+#about{
+	background-color: #000;
+	color: #fff;
+	display: flex;
+	/*height: 70vh;*/
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 20px 0;
+	padding: 40px;
+	line-height: 1.6;
+	position: relative;
+}
+
+
+.about-header{
+	text-transform: uppercase;
+}
+
+/* media query max width the text */
+
+.about-logo{
+	width: 200px;
+	position: absolute;
+	bottom: -30px;
+}
+
+/* menu html section */
+#menu{
+	background-color: #000;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	line-height: 1.5;
+	padding: 80px 8px;
+}
+
+.white{
+	background-color: #fff;
+	color: #000;
+}
+
+.menu-headers{
+	text-transform: uppercase;
+	border-bottom: 3px solid #fff;
+}
+
+.essentials{
+	text-align: center;
+	padding: 10px 0;
+}
+
+.beers{
+	text-align: center;
+	padding: 10px 0;
+}
+
+.vegan{
+	text-align: center;
+	padding: 10px 0;
+}
+
+.americano{
+	text-align: center;
+	padding: 10px 0;
+}
+
+.salad{
+	text-align: center;
+	padding: 10px 0;
+}
+
+.seafood{
+	text-align: center;
+	padding: 10px 0;
+}
+
+/* contact html section */
+#contact{
+	background-color: #000;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.form-container{
+	padding: 45px 0;
+	position: relative;
+}
+
+/* modal for form */
+
+#close-container{
+	position: relative;
+	cursor: pointer;
+}
+
+
+
+#close-btn{
+	position: absolute;
+	top: -10px;
+	right: 10px;
+}
+
+
+#form{
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	line-height: 1.3;
+}
+
+.form-header{
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+.form-inputs{
+	width: 400px;
+}
+
+#form-btn{
+	width: 80px;
+	border-radius: 20px;
+	padding: 1.5px 0;
+	margin: 10px 0;
+}
+
+#form-btn:hover{
+	background-color: #000;
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+
+/* community html section */
+#community{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 20px 0;
+	column-gap: 15px;
+	margin: 20px 20px;
+	border-bottom: 4px solid;
+	border-top: 4px solid;
+}
+
+.community-header{
+	font-weight: 600;
+	text-transform: uppercase;
+	column-gap: 12px;
+	text-align: center;
+}
+
+.community-img{
+	width: 550px;
+}
+
+.community-para{
+	padding: 15px 0;
+}
+
+
+
+
+/***********************media query section**********************************/
+
+@media screen and (max-width: 485px){
+	.header-message{
+		text-align: center;
+		bottom: -90px;
+		left: 20px;
+		padding: 0;
+		margin: 5px;
+	}
+	.local-dish{
+		padding: 15px 5px;
+	}
+
+
+}
+
+@media screen and (max-width: 585px){
+	.community-img{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 775px){
+	#contact{
+		flex-wrap: wrap;
+		justify-content: center;
+		align-content: center;
+	}
+
+	.hours-container{
+		width: 100%;
+	}
+
+	.form-container{
+		width: 100%;
+	}
+	.form-inputs{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 845px){
+	#hours{
+		flex-wrap: wrap;
+		justify-content: center;
+		padding: 20px 0;
+		width: auto;
+		margin: 30px 0;
+	}
+	
+	.dish-container{
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: 40px 0;
+		/*padding: 30px;*/
+	}
+
+	.local-dish{
+		padding: 15px 5px;
+	}
+
+	.about-para{
+		width: auto;
+	}
+
+	.about-logo{
+		display: none;
+	}
+	
+}
+
+@media screen and (max-width: 865px){
+	.header-links{
+		border: none;
+	}
+
+	.company-logo{
+		top: -60px;
+		left: -5px;
+		width: 200px;
+	}
+
+	.local-dish{
+		padding: 15px 5px;
+	}
+
+	
+}
+
+@media screen and (max-width: 870px){
+	#nav-list{
+		width: 100%;
+		text-align: center;
+		padding-top: 10px;
+		display: none;
+	}
+	#icon{
+		position: absolute;
+		top: 10px;
+		right: 30px;
+		color: #fff;
+		font-size: 25px;
+		cursor: pointer;
+	}
+
+	.home-links{
+		display: block;
+		border: none;
+		padding: 5px 0;
+	}
+
+	.active{
+		display: block !important;
+	}
+
+}
+
+
+
