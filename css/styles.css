@@ -395,10 +395,7 @@ img{
 
 @media screen and (max-width: 845px){
 	#hours{
-                display:flex;
-                align-items:center;
-		flex-wrap: wrap;
-		justify-content: center;
+                display:block;
                 padding:20px 0;
                 margin: 20px 0;
 	}
