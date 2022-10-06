@@ -14,7 +14,7 @@ img{
 
 /* header section */
 #header{
-	background-image: url('https://github.com/Mustgrind4life25/restaurantwebsite.github.io/blob/main/img/restaurant-windows.jpg?raw=true');
+	background-image: url('../img/restaurant-windows.jpg');
 	background-size: cover;
 	background-position: center;
 	padding: 100px;
@@ -202,11 +202,11 @@ img{
 
 /* media query max width the text */
 
-.about-logo{
+/*.about-logo{
 	width: 200px;
 	position: absolute;
 	bottom: -30px;
-}
+}*/
 
 /* menu html section */
 #menu{
@@ -365,7 +365,6 @@ img{
 		padding: 15px 5px;
 	}
 
-
 }
 
 @media screen and (max-width: 585px){
@@ -395,11 +394,14 @@ img{
 
 @media screen and (max-width: 845px){
 	#hours{
-                display:block;
-                padding:20px 0;
-                margin: 20px 0;
+		display: block;
+		/*align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;*/
+		padding: 20px 0;
+		margin: 20px 0;
 	}
-	
+
 	.dish-container{
 		flex-wrap: wrap;
 		justify-content: center;
@@ -435,7 +437,6 @@ img{
 	.local-dish{
 		padding: 15px 5px;
 	}
-
 	
 }
 
@@ -459,6 +460,8 @@ img{
 		display: block;
 		border: none;
 		padding: 5px 0;
+		/*color: #000;*/
+		font-size: 20px;
 	}
 
 	.active{
